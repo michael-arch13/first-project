@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>document</title>
+    <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Document</title>
+
+</head>
+
+<body>
+    <nav>
+        <h1>Expense Tracker</h1>
+        <ul>
+            <li>add expense</li>
+            <li>history</li>
+        </ul>
+    </nav>
+    <form class="myform">
+        <label for="amount">account</label>
+        <input type="number"/>
+        <label for="category">Category:</label>
+        <select name="category" id="category">
+            <option value="food">Food</option>
+            </select>
+
+
+        <button type="submit">Add Expense</button>
+    </form>
+<table  id="mytable">
+    <thead>
+        <th>
+        <td>Category</td>
+        <td>description</td>
+        <td>amount</td>
+        <td>action</td>
+    </th>
+</thead>
+<tbody>
+
+    <tr>
+        <td>Food</td>
+        <td>Lunch at restaurant</td>
+        <td>$25.00</td>
+        <td><button >Delete</button></td>
+    </tr>
+</tbody>
+</table>
+<script src="script.js"></script>
+</body>
+</html>
